@@ -1,0 +1,33 @@
+Bee Keeping
+
+Bee Keeping
+
+A console application needs to created to manage some beehives.  The application needs to be able to:
+
+    Create beehives (with bees)
+    From each beehive run the CollectHoney method for a specified number of days
+    Report on the number of bees in each beehive
+
+ 
+
+To start off create 2 beehives
+
+        4 bees (John, Paul, George, Ringo) -> Sizes (3.2, 2.7, 1.1,  2.0)
+        3 bees (Kurt, Dave, Krist) -> Sizes (2.3, 7.4, 1.5)
+
+Create a class diagram before starting.
+
+Rough parameters below.
+
+Beehive
+
+    Bees
+    Max Amount of Bees
+
+    Collect Honey (days: int)
+        Amount: float = days * bee Size * 0.2
+
+Bee
+
+    String: Name
+    Float: Size
